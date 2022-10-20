@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * main - print _putchar
- * is written by MAKWILLIAM55
- * Return: 0
+ * main - prints _putchar followed by a new line
+ * Return: Returns 0
  */
-
 int main(void)
 
 {
+
 _putchar('_');
 _putchar('p');
 _putchar('u');
