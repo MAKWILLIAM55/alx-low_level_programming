@@ -3,29 +3,21 @@
 
 /**
  * main - print n elements of array of integers
- * @a: pointer
  * Return: Always 0
  */
 int main(void)
 {
-	int arr[9];
+	int a[9], i;
 
-	int *a;
-
-	printf("\n\ Read and Print elements of an array: \n");
-	printf("---------------------------------------\n");
-
-	printf("0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 :\n");
-	for (*a = 0; *a < 9; *a ++)
+	printf("Enter Array Elements: ");
+	for (i = 0; i < 9; i++)
 	{
-		printf("element - %d : ", *a);
-		scanf("%d", &arr[*a]);
+		scanf("%d", &a[i]);
 	}
-
-	printf("\nElements in array are: ");
-	for (*a = 0; *a < 9; *a ++)
+	printf("]nArray Elements: ");
+	for (i = 0; i < 9; i++)
 	{
-		printf("%d ", arr[*a]);
+		printf("%d ", a[i]);
 	}
-	printf("\n");
+	return (0);
 }
