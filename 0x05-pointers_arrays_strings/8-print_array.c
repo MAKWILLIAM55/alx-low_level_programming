@@ -2,22 +2,21 @@
 #include <stdio.h>
 
 /**
- * main - print n elements of array of integers
+ * print_array - print n elements of array of integers
+ * @a: array
+ * @n: number of values to be printed
  * Return: Always 0
  */
-int main(void)
+void print_array(int *a, int n)
 {
-	int a[9], i;
+	int i;
 
-	printf("Enter Array Elements: ");
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < n; i++)
 	{
-		scanf("%d", &a[i]);
+		printf("%d", a[i]);
+		if (i != n - 1)
+			printf(", ");
 	}
-	printf("]nArray Elements: ");
-	for (i = 0; i < 9; i++)
-	{
-		printf("%d ", a[i]);
-	}
-	return (0);
+
+	printf("\n");
 }
