@@ -1,10 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char f;
@@ -20,7 +20,7 @@ int main(void)
 		f++;
 		}
 	while
-		(g <= 'z')
+		(g <= 'Z')
 		{
 			putchar(g);
 			g++;
