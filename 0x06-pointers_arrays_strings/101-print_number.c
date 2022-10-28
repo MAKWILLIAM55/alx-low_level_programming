@@ -2,7 +2,7 @@
 
 /**
  * print_number - function prints an integer
- * @n: the integer needed
+ * @n: the integer needed to be printed
  */
 void print_number(int n)
 {
@@ -18,4 +18,6 @@ void print_number(int n)
 		print_number(num / 10);
 
 	_putchar((num % 10) + '0');
+
+	return (void);
 }
